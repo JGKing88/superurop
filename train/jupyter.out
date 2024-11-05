@@ -1,0 +1,567 @@
+[I 2024-11-05 06:38:25.471 ServerApp] Package jupyterlab took 0.0000s to import
+[I 2024-11-05 06:38:25.599 ServerApp] Package jupyter_lsp took 0.1281s to import
+[W 2024-11-05 06:38:25.599 ServerApp] A `_jupyter_server_extension_points` function was not found in jupyter_lsp. Instead, a `_jupyter_server_extension_paths` function was found and will be used for now. This function name will be deprecated in future releases of Jupyter Server.
+[I 2024-11-05 06:38:25.647 ServerApp] Package jupyter_server_terminals took 0.0475s to import
+[I 2024-11-05 06:38:25.647 ServerApp] Package notebook took 0.0000s to import
+[I 2024-11-05 06:38:25.651 ServerApp] Package notebook_shim took 0.0000s to import
+[W 2024-11-05 06:38:25.651 ServerApp] A `_jupyter_server_extension_points` function was not found in notebook_shim. Instead, a `_jupyter_server_extension_paths` function was found and will be used for now. This function name will be deprecated in future releases of Jupyter Server.
+[I 2024-11-05 06:38:25.653 ServerApp] jupyter_lsp | extension was successfully linked.
+[I 2024-11-05 06:38:25.658 ServerApp] jupyter_server_terminals | extension was successfully linked.
+[W 2024-11-05 06:38:25.661 LabApp] 'allow_origin' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2024-11-05 06:38:25.661 LabApp] 'port_retries' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[I 2024-11-05 06:38:25.663 ServerApp] jupyterlab | extension was successfully linked.
+[I 2024-11-05 06:38:25.668 ServerApp] notebook | extension was successfully linked.
+[I 2024-11-05 06:38:27.059 ServerApp] notebook_shim | extension was successfully linked.
+[I 2024-11-05 06:38:27.206 ServerApp] notebook_shim | extension was successfully loaded.
+[I 2024-11-05 06:38:27.208 ServerApp] jupyter_lsp | extension was successfully loaded.
+[I 2024-11-05 06:38:27.209 ServerApp] jupyter_server_terminals | extension was successfully loaded.
+[I 2024-11-05 06:38:27.232 LabApp] JupyterLab extension loaded from /om2/user/jackking/anaconda/envs/modular_transformers/lib/python3.8/site-packages/jupyterlab
+[I 2024-11-05 06:38:27.232 LabApp] JupyterLab application directory is /net/vast-storage/scratch/vast/evlab/jackking/anaconda/envs/modular_transformers/share/jupyter/lab
+[I 2024-11-05 06:38:27.233 LabApp] Extension Manager is 'pypi'.
+[I 2024-11-05 06:38:27.235 ServerApp] jupyterlab | extension was successfully loaded.
+[I 2024-11-05 06:38:27.239 ServerApp] notebook | extension was successfully loaded.
+[I 2024-11-05 06:38:27.240 ServerApp] Serving notebooks from local directory: /net/vast-storage/scratch/vast/evlab/jackking/superurop/train
+[I 2024-11-05 06:38:27.240 ServerApp] Jupyter Server 2.10.1 is running at:
+[I 2024-11-05 06:38:27.240 ServerApp] http://node094:8081/lab?token=26946372f5a0b4b2117ebccbcfe239d4396c263c2b247d44
+[I 2024-11-05 06:38:27.240 ServerApp]     http://127.0.0.1:8081/lab?token=26946372f5a0b4b2117ebccbcfe239d4396c263c2b247d44
+[I 2024-11-05 06:38:27.240 ServerApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[C 2024-11-05 06:38:27.253 ServerApp] 
+    
+    To access the server, open this file in a browser:
+        file:///rdma/vast-rdma/vast-home/jackking/.local/share/jupyter/runtime/jpserver-2898840-open.html
+    Or copy and paste one of these URLs:
+        http://node094:8081/lab?token=26946372f5a0b4b2117ebccbcfe239d4396c263c2b247d44
+        http://127.0.0.1:8081/lab?token=26946372f5a0b4b2117ebccbcfe239d4396c263c2b247d44
+[I 2024-11-05 06:38:27.307 ServerApp] Skipped non-installed server(s): bash-language-server, dockerfile-language-server-nodejs, javascript-typescript-langserver, jedi-language-server, julia-language-server, pyright, python-language-server, python-lsp-server, r-languageserver, sql-language-server, texlab, typescript-language-server, unified-language-server, vscode-css-languageserver-bin, vscode-html-languageserver-bin, vscode-json-languageserver-bin, yaml-language-server
+[W 2024-11-05 06:43:19.639 ServerApp] 404 GET /hub/api (@172.16.24.234) 61.21ms referer=None
+[I 2024-11-05 06:43:19.646 ServerApp] 302 GET / (@172.16.24.234) 0.27ms
+[I 2024-11-05 06:43:19.660 LabApp] 302 GET /lab? (@172.16.24.234) 0.33ms
+[W 2024-11-05 06:43:21.353 ServerApp] 404 GET /hub/api (@172.16.24.234) 0.74ms referer=None
+[I 2024-11-05 06:43:21.360 ServerApp] 302 GET / (@172.16.24.234) 0.20ms
+[I 2024-11-05 06:43:21.364 LabApp] 302 GET /lab? (@172.16.24.234) 0.27ms
+[W 2024-11-05 06:43:23.899 ServerApp] 404 GET /hub/api (@172.16.24.234) 1.85ms referer=None
+[I 2024-11-05 06:43:23.902 ServerApp] 302 GET / (@172.16.24.234) 0.23ms
+[I 2024-11-05 06:43:23.905 LabApp] 302 GET /lab? (@172.16.24.234) 0.31ms
+[I 2024-11-05 06:43:24.004 ServerApp] Kernel started: f58ab3b1-3e00-4826-9604-d68c93ef1c77
+[I 2024-11-05 06:43:25.023 ServerApp] Connecting to kernel f58ab3b1-3e00-4826-9604-d68c93ef1c77.
+[W 2024-11-05 06:43:25.171 ServerApp] 404 GET /hub/api (@172.16.24.234) 1.01ms referer=None
+[I 2024-11-05 06:43:25.301 ServerApp] 302 GET / (@172.16.24.234) 0.33ms
+[I 2024-11-05 06:43:25.475 LabApp] 302 GET /lab? (@172.16.24.234) 0.41ms
+[W 2024-11-05 06:43:25.658 ServerApp] wrote error: 'Forbidden'
+    Traceback (most recent call last):
+      File "/om2/user/jackking/anaconda/envs/modular_transformers/lib/python3.8/site-packages/tornado/web.py", line 1784, in _execute
+        result = method(*self.path_args, **self.path_kwargs)
+      File "/om2/user/jackking/anaconda/envs/modular_transformers/lib/python3.8/site-packages/tornado/web.py", line 3278, in wrapper
+        url = self.get_login_url()
+      File "/om2/user/jackking/anaconda/envs/modular_transformers/lib/python3.8/site-packages/jupyter_server/base/handlers.py", line 761, in get_login_url
+        raise web.HTTPError(403)
+    tornado.web.HTTPError: HTTP 403: Forbidden
+[W 2024-11-05 06:43:25.666 ServerApp] 403 GET /api/kernelspecs?1730807005655 (@172.16.24.234) 7.84ms referer=None
+[W 2024-11-05 06:43:25.667 ServerApp] wrote error: 'Forbidden'
+    Traceback (most recent call last):
+      File "/om2/user/jackking/anaconda/envs/modular_transformers/lib/python3.8/site-packages/tornado/web.py", line 1784, in _execute
+        result = method(*self.path_args, **self.path_kwargs)
+      File "/om2/user/jackking/anaconda/envs/modular_transformers/lib/python3.8/site-packages/tornado/web.py", line 3278, in wrapper
+        url = self.get_login_url()
+      File "/om2/user/jackking/anaconda/envs/modular_transformers/lib/python3.8/site-packages/jupyter_server/base/handlers.py", line 761, in get_login_url
+        raise web.HTTPError(403)
+    tornado.web.HTTPError: HTTP 403: Forbidden
+[W 2024-11-05 06:43:25.667 ServerApp] 403 GET /api/kernels?1730807005656 (@172.16.24.234) 1.06ms referer=None
+[W 2024-11-05 06:43:25.668 ServerApp] wrote error: 'Forbidden'
+    Traceback (most recent call last):
+      File "/om2/user/jackking/anaconda/envs/modular_transformers/lib/python3.8/site-packages/tornado/web.py", line 1784, in _execute
+        result = method(*self.path_args, **self.path_kwargs)
+      File "/om2/user/jackking/anaconda/envs/modular_transformers/lib/python3.8/site-packages/tornado/web.py", line 3278, in wrapper
+        url = self.get_login_url()
+      File "/om2/user/jackking/anaconda/envs/modular_transformers/lib/python3.8/site-packages/jupyter_server/base/handlers.py", line 761, in get_login_url
+        raise web.HTTPError(403)
+    tornado.web.HTTPError: HTTP 403: Forbidden
+[W 2024-11-05 06:43:25.668 ServerApp] 403 GET /api/kernels?1730807005657 (@172.16.24.234) 1.46ms referer=None
+[W 2024-11-05 06:43:25.668 ServerApp] wrote error: 'Forbidden'
+    Traceback (most recent call last):
+      File "/om2/user/jackking/anaconda/envs/modular_transformers/lib/python3.8/site-packages/tornado/web.py", line 1784, in _execute
+        result = method(*self.path_args, **self.path_kwargs)
+      File "/om2/user/jackking/anaconda/envs/modular_transformers/lib/python3.8/site-packages/tornado/web.py", line 3278, in wrapper
+        url = self.get_login_url()
+      File "/om2/user/jackking/anaconda/envs/modular_transformers/lib/python3.8/site-packages/jupyter_server/base/handlers.py", line 761, in get_login_url
+        raise web.HTTPError(403)
+    tornado.web.HTTPError: HTTP 403: Forbidden
+[W 2024-11-05 06:43:25.669 ServerApp] 403 GET /api/sessions?1730807005658 (@172.16.24.234) 1.75ms referer=None
+[W 2024-11-05 06:43:25.680 ServerApp] wrote error: 'Forbidden'
+    Traceback (most recent call last):
+      File "/om2/user/jackking/anaconda/envs/modular_transformers/lib/python3.8/site-packages/tornado/web.py", line 1784, in _execute
+        result = method(*self.path_args, **self.path_kwargs)
+      File "/om2/user/jackking/anaconda/envs/modular_transformers/lib/python3.8/site-packages/tornado/web.py", line 3278, in wrapper
+        url = self.get_login_url()
+      File "/om2/user/jackking/anaconda/envs/modular_transformers/lib/python3.8/site-packages/jupyter_server/base/handlers.py", line 761, in get_login_url
+        raise web.HTTPError(403)
+    tornado.web.HTTPError: HTTP 403: Forbidden
+[W 2024-11-05 06:43:25.680 ServerApp] 403 GET /api/kernelspecs?1730807005671 (@172.16.24.234) 0.52ms referer=None
+[W 2024-11-05 06:43:25.681 ServerApp] 404 GET /hub/api (@172.16.24.234) 0.68ms referer=None
+[I 2024-11-05 06:43:25.684 ServerApp] 302 GET / (@172.16.24.234) 0.27ms
+[I 2024-11-05 06:43:25.688 LabApp] 302 GET /lab? (@172.16.24.234) 0.29ms
+[W 2024-11-05 06:43:25.697 ServerApp] wrote error: 'Forbidden'
+    Traceback (most recent call last):
+      File "/om2/user/jackking/anaconda/envs/modular_transformers/lib/python3.8/site-packages/tornado/web.py", line 1784, in _execute
+        result = method(*self.path_args, **self.path_kwargs)
+      File "/om2/user/jackking/anaconda/envs/modular_transformers/lib/python3.8/site-packages/tornado/web.py", line 3278, in wrapper
+        url = self.get_login_url()
+      File "/om2/user/jackking/anaconda/envs/modular_transformers/lib/python3.8/site-packages/jupyter_server/base/handlers.py", line 761, in get_login_url
+        raise web.HTTPError(403)
+    tornado.web.HTTPError: HTTP 403: Forbidden
+[W 2024-11-05 06:43:25.697 ServerApp] 403 GET /api/kernelspecs?1730807005694 (@172.16.24.234) 0.52ms referer=None
+[W 2024-11-05 06:43:25.701 ServerApp] wrote error: 'Forbidden'
+    Traceback (most recent call last):
+      File "/om2/user/jackking/anaconda/envs/modular_transformers/lib/python3.8/site-packages/tornado/web.py", line 1784, in _execute
+        result = method(*self.path_args, **self.path_kwargs)
+      File "/om2/user/jackking/anaconda/envs/modular_transformers/lib/python3.8/site-packages/tornado/web.py", line 3278, in wrapper
+        url = self.get_login_url()
+      File "/om2/user/jackking/anaconda/envs/modular_transformers/lib/python3.8/site-packages/jupyter_server/base/handlers.py", line 761, in get_login_url
+        raise web.HTTPError(403)
+    tornado.web.HTTPError: HTTP 403: Forbidden
+[W 2024-11-05 06:43:25.702 ServerApp] 403 GET /api/kernels?1730807005695 (@172.16.24.234) 0.58ms referer=None
+[W 2024-11-05 06:43:25.702 ServerApp] wrote error: 'Forbidden'
+    Traceback (most recent call last):
+      File "/om2/user/jackking/anaconda/envs/modular_transformers/lib/python3.8/site-packages/tornado/web.py", line 1784, in _execute
+        result = method(*self.path_args, **self.path_kwargs)
+      File "/om2/user/jackking/anaconda/envs/modular_transformers/lib/python3.8/site-packages/tornado/web.py", line 3278, in wrapper
+        url = self.get_login_url()
+      File "/om2/user/jackking/anaconda/envs/modular_transformers/lib/python3.8/site-packages/jupyter_server/base/handlers.py", line 761, in get_login_url
+        raise web.HTTPError(403)
+    tornado.web.HTTPError: HTTP 403: Forbidden
+[W 2024-11-05 06:43:25.703 ServerApp] 403 GET /api/kernels?1730807005696 (@172.16.24.234) 0.70ms referer=None
+[W 2024-11-05 06:43:25.703 ServerApp] wrote error: 'Forbidden'
+    Traceback (most recent call last):
+      File "/om2/user/jackking/anaconda/envs/modular_transformers/lib/python3.8/site-packages/tornado/web.py", line 1784, in _execute
+        result = method(*self.path_args, **self.path_kwargs)
+      File "/om2/user/jackking/anaconda/envs/modular_transformers/lib/python3.8/site-packages/tornado/web.py", line 3278, in wrapper
+        url = self.get_login_url()
+      File "/om2/user/jackking/anaconda/envs/modular_transformers/lib/python3.8/site-packages/jupyter_server/base/handlers.py", line 761, in get_login_url
+        raise web.HTTPError(403)
+    tornado.web.HTTPError: HTTP 403: Forbidden
+[W 2024-11-05 06:43:25.704 ServerApp] 403 GET /api/sessions?1730807005697 (@172.16.24.234) 0.92ms referer=None
+[W 2024-11-05 06:43:25.704 ServerApp] wrote error: 'Forbidden'
+    Traceback (most recent call last):
+      File "/om2/user/jackking/anaconda/envs/modular_transformers/lib/python3.8/site-packages/tornado/web.py", line 1784, in _execute
+        result = method(*self.path_args, **self.path_kwargs)
+      File "/om2/user/jackking/anaconda/envs/modular_transformers/lib/python3.8/site-packages/tornado/web.py", line 3278, in wrapper
+        url = self.get_login_url()
+      File "/om2/user/jackking/anaconda/envs/modular_transformers/lib/python3.8/site-packages/jupyter_server/base/handlers.py", line 761, in get_login_url
+        raise web.HTTPError(403)
+    tornado.web.HTTPError: HTTP 403: Forbidden
+[W 2024-11-05 06:43:25.704 ServerApp] 403 GET /api/kernelspecs?1730807005699 (@172.16.24.234) 1.31ms referer=None
+[I 2024-11-05 07:41:29.228 ServerApp] Kernel restarted: f58ab3b1-3e00-4826-9604-d68c93ef1c77
+[I 2024-11-05 07:41:29.235 ServerApp] Starting buffering for f58ab3b1-3e00-4826-9604-d68c93ef1c77:606f6479-d80b-4870-940a-b62e8a180ab9
+[I 2024-11-05 07:41:29.257 ServerApp] Connecting to kernel f58ab3b1-3e00-4826-9604-d68c93ef1c77.
+[I 2024-11-05 07:41:29.257 ServerApp] Restoring connection for f58ab3b1-3e00-4826-9604-d68c93ef1c77:606f6479-d80b-4870-940a-b62e8a180ab9
+[I 2024-11-05 07:42:28.719 ServerApp] Kernel restarted: f58ab3b1-3e00-4826-9604-d68c93ef1c77
+[I 2024-11-05 07:42:28.724 ServerApp] Starting buffering for f58ab3b1-3e00-4826-9604-d68c93ef1c77:606f6479-d80b-4870-940a-b62e8a180ab9
+[I 2024-11-05 07:42:28.731 ServerApp] Connecting to kernel f58ab3b1-3e00-4826-9604-d68c93ef1c77.
+[I 2024-11-05 07:42:28.731 ServerApp] Restoring connection for f58ab3b1-3e00-4826-9604-d68c93ef1c77:606f6479-d80b-4870-940a-b62e8a180ab9
+[I 2024-11-05 08:10:05.236 ServerApp] Kernel interrupted: f58ab3b1-3e00-4826-9604-d68c93ef1c77
+[I 2024-11-05 08:15:56.516 ServerApp] Kernel interrupted: f58ab3b1-3e00-4826-9604-d68c93ef1c77
+[I 2024-11-05 08:45:54.219 ServerApp] Kernel interrupted: f58ab3b1-3e00-4826-9604-d68c93ef1c77
+[I 2024-11-05 09:20:32.834 ServerApp] Kernel restarted: f58ab3b1-3e00-4826-9604-d68c93ef1c77
+[I 2024-11-05 09:20:32.841 ServerApp] Starting buffering for f58ab3b1-3e00-4826-9604-d68c93ef1c77:606f6479-d80b-4870-940a-b62e8a180ab9
+[I 2024-11-05 09:20:32.856 ServerApp] Connecting to kernel f58ab3b1-3e00-4826-9604-d68c93ef1c77.
+[I 2024-11-05 09:20:32.856 ServerApp] Restoring connection for f58ab3b1-3e00-4826-9604-d68c93ef1c77:606f6479-d80b-4870-940a-b62e8a180ab9
+[I 2024-11-05 09:22:53.228 ServerApp] Kernel restarted: f58ab3b1-3e00-4826-9604-d68c93ef1c77
+[I 2024-11-05 09:22:53.232 ServerApp] Starting buffering for f58ab3b1-3e00-4826-9604-d68c93ef1c77:606f6479-d80b-4870-940a-b62e8a180ab9
+[I 2024-11-05 09:22:53.240 ServerApp] Connecting to kernel f58ab3b1-3e00-4826-9604-d68c93ef1c77.
+[I 2024-11-05 09:22:53.240 ServerApp] Restoring connection for f58ab3b1-3e00-4826-9604-d68c93ef1c77:606f6479-d80b-4870-940a-b62e8a180ab9
+[I 2024-11-05 09:22:58.155 ServerApp] Kernel restarted: f58ab3b1-3e00-4826-9604-d68c93ef1c77
+[I 2024-11-05 09:22:58.159 ServerApp] Starting buffering for f58ab3b1-3e00-4826-9604-d68c93ef1c77:606f6479-d80b-4870-940a-b62e8a180ab9
+[I 2024-11-05 09:22:58.167 ServerApp] Connecting to kernel f58ab3b1-3e00-4826-9604-d68c93ef1c77.
+[I 2024-11-05 09:22:58.167 ServerApp] Restoring connection for f58ab3b1-3e00-4826-9604-d68c93ef1c77:606f6479-d80b-4870-940a-b62e8a180ab9
+[I 2024-11-05 09:24:07.910 ServerApp] Kernel restarted: f58ab3b1-3e00-4826-9604-d68c93ef1c77
+[I 2024-11-05 09:24:07.913 ServerApp] Starting buffering for f58ab3b1-3e00-4826-9604-d68c93ef1c77:606f6479-d80b-4870-940a-b62e8a180ab9
+[I 2024-11-05 09:24:07.919 ServerApp] Connecting to kernel f58ab3b1-3e00-4826-9604-d68c93ef1c77.
+[I 2024-11-05 09:24:07.919 ServerApp] Restoring connection for f58ab3b1-3e00-4826-9604-d68c93ef1c77:606f6479-d80b-4870-940a-b62e8a180ab9
+[I 2024-11-05 09:38:51.398 ServerApp] Kernel restarted: f58ab3b1-3e00-4826-9604-d68c93ef1c77
+[I 2024-11-05 09:38:51.402 ServerApp] Starting buffering for f58ab3b1-3e00-4826-9604-d68c93ef1c77:606f6479-d80b-4870-940a-b62e8a180ab9
+[I 2024-11-05 09:38:51.410 ServerApp] Connecting to kernel f58ab3b1-3e00-4826-9604-d68c93ef1c77.
+[I 2024-11-05 09:38:51.412 ServerApp] Restoring connection for f58ab3b1-3e00-4826-9604-d68c93ef1c77:606f6479-d80b-4870-940a-b62e8a180ab9
+[I 2024-11-05 09:53:49.425 ServerApp] Kernel interrupted: f58ab3b1-3e00-4826-9604-d68c93ef1c77
+[I 2024-11-05 10:07:11.702 ServerApp] Kernel interrupted: f58ab3b1-3e00-4826-9604-d68c93ef1c77
+[I 2024-11-05 10:07:41.556 ServerApp] Kernel interrupted: f58ab3b1-3e00-4826-9604-d68c93ef1c77
+[I 2024-11-05 10:27:43.594 ServerApp] Kernel interrupted: f58ab3b1-3e00-4826-9604-d68c93ef1c77
+[I 2024-11-05 10:51:43.091 ServerApp] Kernel interrupted: f58ab3b1-3e00-4826-9604-d68c93ef1c77
+[I 2024-11-05 10:51:53.290 ServerApp] Kernel interrupted: f58ab3b1-3e00-4826-9604-d68c93ef1c77
+[I 2024-11-05 10:54:41.531 ServerApp] Kernel restarted: f58ab3b1-3e00-4826-9604-d68c93ef1c77
+[I 2024-11-05 10:54:41.537 ServerApp] Starting buffering for f58ab3b1-3e00-4826-9604-d68c93ef1c77:606f6479-d80b-4870-940a-b62e8a180ab9
+[I 2024-11-05 10:54:41.546 ServerApp] Connecting to kernel f58ab3b1-3e00-4826-9604-d68c93ef1c77.
+[I 2024-11-05 10:54:41.546 ServerApp] Restoring connection for f58ab3b1-3e00-4826-9604-d68c93ef1c77:606f6479-d80b-4870-940a-b62e8a180ab9
+[I 2024-11-05 10:55:19.310 ServerApp] Kernel interrupted: f58ab3b1-3e00-4826-9604-d68c93ef1c77
+[I 2024-11-05 11:01:51.542 ServerApp] Kernel interrupted: f58ab3b1-3e00-4826-9604-d68c93ef1c77
+[I 2024-11-05 11:02:11.044 ServerApp] Kernel restarted: f58ab3b1-3e00-4826-9604-d68c93ef1c77
+[I 2024-11-05 11:02:11.049 ServerApp] Starting buffering for f58ab3b1-3e00-4826-9604-d68c93ef1c77:606f6479-d80b-4870-940a-b62e8a180ab9
+[I 2024-11-05 11:02:11.060 ServerApp] Connecting to kernel f58ab3b1-3e00-4826-9604-d68c93ef1c77.
+[I 2024-11-05 11:02:11.060 ServerApp] Restoring connection for f58ab3b1-3e00-4826-9604-d68c93ef1c77:606f6479-d80b-4870-940a-b62e8a180ab9
+[W 2024-11-05 11:13:09.820 ServerApp] 404 GET /hub/api (@172.16.24.234) 3.72ms referer=None
+[W 2024-11-05 11:13:09.881 ServerApp] 404 GET /hub/api (@172.16.24.234) 0.66ms referer=None
+[I 2024-11-05 11:13:10.854 ServerApp] 302 GET / (@172.16.24.234) 0.23ms
+[I 2024-11-05 11:13:10.854 ServerApp] 302 GET / (@172.16.24.234) 0.19ms
+[I 2024-11-05 11:13:12.373 LabApp] 302 GET /lab? (@172.16.24.234) 0.39ms
+[I 2024-11-05 11:13:12.374 LabApp] 302 GET /lab? (@172.16.24.234) 0.27ms
+[W 2024-11-05 11:13:21.028 ServerApp] wrote error: 'Forbidden'
+    Traceback (most recent call last):
+      File "/om2/user/jackking/anaconda/envs/modular_transformers/lib/python3.8/site-packages/tornado/web.py", line 1784, in _execute
+        result = method(*self.path_args, **self.path_kwargs)
+      File "/om2/user/jackking/anaconda/envs/modular_transformers/lib/python3.8/site-packages/tornado/web.py", line 3278, in wrapper
+        url = self.get_login_url()
+      File "/om2/user/jackking/anaconda/envs/modular_transformers/lib/python3.8/site-packages/jupyter_server/base/handlers.py", line 761, in get_login_url
+        raise web.HTTPError(403)
+    tornado.web.HTTPError: HTTP 403: Forbidden
+[W 2024-11-05 11:13:21.030 ServerApp] 403 GET /api/kernelspecs?1730823201020 (@172.16.24.234) 2.51ms referer=None
+[W 2024-11-05 11:13:21.364 ServerApp] wrote error: 'Forbidden'
+    Traceback (most recent call last):
+      File "/om2/user/jackking/anaconda/envs/modular_transformers/lib/python3.8/site-packages/tornado/web.py", line 1784, in _execute
+        result = method(*self.path_args, **self.path_kwargs)
+      File "/om2/user/jackking/anaconda/envs/modular_transformers/lib/python3.8/site-packages/tornado/web.py", line 3278, in wrapper
+        url = self.get_login_url()
+      File "/om2/user/jackking/anaconda/envs/modular_transformers/lib/python3.8/site-packages/jupyter_server/base/handlers.py", line 761, in get_login_url
+        raise web.HTTPError(403)
+    tornado.web.HTTPError: HTTP 403: Forbidden
+[W 2024-11-05 11:13:21.364 ServerApp] 403 GET /api/kernels?1730823201021 (@172.16.24.234) 0.54ms referer=None
+[W 2024-11-05 11:13:21.366 ServerApp] wrote error: 'Forbidden'
+    Traceback (most recent call last):
+      File "/om2/user/jackking/anaconda/envs/modular_transformers/lib/python3.8/site-packages/tornado/web.py", line 1784, in _execute
+        result = method(*self.path_args, **self.path_kwargs)
+      File "/om2/user/jackking/anaconda/envs/modular_transformers/lib/python3.8/site-packages/tornado/web.py", line 3278, in wrapper
+        url = self.get_login_url()
+      File "/om2/user/jackking/anaconda/envs/modular_transformers/lib/python3.8/site-packages/jupyter_server/base/handlers.py", line 761, in get_login_url
+        raise web.HTTPError(403)
+    tornado.web.HTTPError: HTTP 403: Forbidden
+[W 2024-11-05 11:13:21.366 ServerApp] 403 GET /api/kernels?1730823201107 (@172.16.24.234) 1.53ms referer=None
+[W 2024-11-05 11:13:21.366 ServerApp] wrote error: 'Forbidden'
+    Traceback (most recent call last):
+      File "/om2/user/jackking/anaconda/envs/modular_transformers/lib/python3.8/site-packages/tornado/web.py", line 1784, in _execute
+        result = method(*self.path_args, **self.path_kwargs)
+      File "/om2/user/jackking/anaconda/envs/modular_transformers/lib/python3.8/site-packages/tornado/web.py", line 3278, in wrapper
+        url = self.get_login_url()
+      File "/om2/user/jackking/anaconda/envs/modular_transformers/lib/python3.8/site-packages/jupyter_server/base/handlers.py", line 761, in get_login_url
+        raise web.HTTPError(403)
+    tornado.web.HTTPError: HTTP 403: Forbidden
+[W 2024-11-05 11:13:21.366 ServerApp] 403 GET /api/sessions?1730823201108 (@172.16.24.234) 1.85ms referer=None
+[W 2024-11-05 11:13:21.545 ServerApp] wrote error: 'Forbidden'
+    Traceback (most recent call last):
+      File "/om2/user/jackking/anaconda/envs/modular_transformers/lib/python3.8/site-packages/tornado/web.py", line 1784, in _execute
+        result = method(*self.path_args, **self.path_kwargs)
+      File "/om2/user/jackking/anaconda/envs/modular_transformers/lib/python3.8/site-packages/tornado/web.py", line 3278, in wrapper
+        url = self.get_login_url()
+      File "/om2/user/jackking/anaconda/envs/modular_transformers/lib/python3.8/site-packages/jupyter_server/base/handlers.py", line 761, in get_login_url
+        raise web.HTTPError(403)
+    tornado.web.HTTPError: HTTP 403: Forbidden
+[W 2024-11-05 11:13:21.545 ServerApp] 403 GET /api/kernelspecs?1730823201352 (@172.16.24.234) 0.49ms referer=None
+[W 2024-11-05 11:13:22.313 ServerApp] 404 GET /hub/api (@172.16.24.234) 1.52ms referer=None
+[I 2024-11-05 11:13:22.413 ServerApp] 302 GET / (@172.16.24.234) 0.20ms
+[I 2024-11-05 11:13:22.741 LabApp] 302 GET /lab? (@172.16.24.234) 0.32ms
+[W 2024-11-05 11:13:29.659 ServerApp] wrote error: 'Forbidden'
+    Traceback (most recent call last):
+      File "/om2/user/jackking/anaconda/envs/modular_transformers/lib/python3.8/site-packages/tornado/web.py", line 1784, in _execute
+        result = method(*self.path_args, **self.path_kwargs)
+      File "/om2/user/jackking/anaconda/envs/modular_transformers/lib/python3.8/site-packages/tornado/web.py", line 3278, in wrapper
+        url = self.get_login_url()
+      File "/om2/user/jackking/anaconda/envs/modular_transformers/lib/python3.8/site-packages/jupyter_server/base/handlers.py", line 761, in get_login_url
+        raise web.HTTPError(403)
+    tornado.web.HTTPError: HTTP 403: Forbidden
+[W 2024-11-05 11:13:29.660 ServerApp] 403 GET /api/kernelspecs?1730823209653 (@172.16.24.234) 0.65ms referer=None
+[W 2024-11-05 11:13:30.029 ServerApp] wrote error: 'Forbidden'
+    Traceback (most recent call last):
+      File "/om2/user/jackking/anaconda/envs/modular_transformers/lib/python3.8/site-packages/tornado/web.py", line 1784, in _execute
+        result = method(*self.path_args, **self.path_kwargs)
+      File "/om2/user/jackking/anaconda/envs/modular_transformers/lib/python3.8/site-packages/tornado/web.py", line 3278, in wrapper
+        url = self.get_login_url()
+      File "/om2/user/jackking/anaconda/envs/modular_transformers/lib/python3.8/site-packages/jupyter_server/base/handlers.py", line 761, in get_login_url
+        raise web.HTTPError(403)
+    tornado.web.HTTPError: HTTP 403: Forbidden
+[W 2024-11-05 11:13:30.029 ServerApp] 403 GET /api/kernels?1730823209655 (@172.16.24.234) 0.65ms referer=None
+[W 2024-11-05 11:13:30.029 ServerApp] wrote error: 'Forbidden'
+    Traceback (most recent call last):
+      File "/om2/user/jackking/anaconda/envs/modular_transformers/lib/python3.8/site-packages/tornado/web.py", line 1784, in _execute
+        result = method(*self.path_args, **self.path_kwargs)
+      File "/om2/user/jackking/anaconda/envs/modular_transformers/lib/python3.8/site-packages/tornado/web.py", line 3278, in wrapper
+        url = self.get_login_url()
+      File "/om2/user/jackking/anaconda/envs/modular_transformers/lib/python3.8/site-packages/jupyter_server/base/handlers.py", line 761, in get_login_url
+        raise web.HTTPError(403)
+    tornado.web.HTTPError: HTTP 403: Forbidden
+[W 2024-11-05 11:13:30.030 ServerApp] 403 GET /api/kernels?1730823209658 (@172.16.24.234) 0.65ms referer=None
+[W 2024-11-05 11:13:30.030 ServerApp] wrote error: 'Forbidden'
+    Traceback (most recent call last):
+      File "/om2/user/jackking/anaconda/envs/modular_transformers/lib/python3.8/site-packages/tornado/web.py", line 1784, in _execute
+        result = method(*self.path_args, **self.path_kwargs)
+      File "/om2/user/jackking/anaconda/envs/modular_transformers/lib/python3.8/site-packages/tornado/web.py", line 3278, in wrapper
+        url = self.get_login_url()
+      File "/om2/user/jackking/anaconda/envs/modular_transformers/lib/python3.8/site-packages/jupyter_server/base/handlers.py", line 761, in get_login_url
+        raise web.HTTPError(403)
+    tornado.web.HTTPError: HTTP 403: Forbidden
+[W 2024-11-05 11:13:30.030 ServerApp] 403 GET /api/sessions?1730823209683 (@172.16.24.234) 0.94ms referer=None
+[W 2024-11-05 11:13:30.057 ServerApp] wrote error: 'Forbidden'
+    Traceback (most recent call last):
+      File "/om2/user/jackking/anaconda/envs/modular_transformers/lib/python3.8/site-packages/tornado/web.py", line 1784, in _execute
+        result = method(*self.path_args, **self.path_kwargs)
+      File "/om2/user/jackking/anaconda/envs/modular_transformers/lib/python3.8/site-packages/tornado/web.py", line 3278, in wrapper
+        url = self.get_login_url()
+      File "/om2/user/jackking/anaconda/envs/modular_transformers/lib/python3.8/site-packages/jupyter_server/base/handlers.py", line 761, in get_login_url
+        raise web.HTTPError(403)
+    tornado.web.HTTPError: HTTP 403: Forbidden
+[W 2024-11-05 11:13:30.057 ServerApp] 403 GET /api/kernelspecs?1730823209903 (@172.16.24.234) 0.50ms referer=None
+[W 2024-11-05 11:13:30.589 ServerApp] 404 GET /hub/api (@172.16.24.234) 0.75ms referer=None
+[I 2024-11-05 11:13:30.624 ServerApp] 302 GET / (@172.16.24.234) 0.21ms
+[I 2024-11-05 11:13:30.648 LabApp] 302 GET /lab? (@172.16.24.234) 0.29ms
+[I 2024-11-05 11:13:30.748 ServerApp] Connecting to kernel f58ab3b1-3e00-4826-9604-d68c93ef1c77.
+[W 2024-11-05 11:13:31.169 ServerApp] 404 GET /hub/api (@172.16.24.234) 0.63ms referer=None
+[I 2024-11-05 11:13:31.465 ServerApp] 302 GET / (@172.16.24.234) 0.21ms
+[I 2024-11-05 11:13:31.631 LabApp] 302 GET /lab? (@172.16.24.234) 0.29ms
+[W 2024-11-05 11:13:31.931 ServerApp] wrote error: 'Forbidden'
+    Traceback (most recent call last):
+      File "/om2/user/jackking/anaconda/envs/modular_transformers/lib/python3.8/site-packages/tornado/web.py", line 1784, in _execute
+        result = method(*self.path_args, **self.path_kwargs)
+      File "/om2/user/jackking/anaconda/envs/modular_transformers/lib/python3.8/site-packages/tornado/web.py", line 3278, in wrapper
+        url = self.get_login_url()
+      File "/om2/user/jackking/anaconda/envs/modular_transformers/lib/python3.8/site-packages/jupyter_server/base/handlers.py", line 761, in get_login_url
+        raise web.HTTPError(403)
+    tornado.web.HTTPError: HTTP 403: Forbidden
+[W 2024-11-05 11:13:31.931 ServerApp] 403 GET /api/kernelspecs?1730823211907 (@172.16.24.234) 0.53ms referer=None
+[W 2024-11-05 11:13:31.947 ServerApp] wrote error: 'Forbidden'
+    Traceback (most recent call last):
+      File "/om2/user/jackking/anaconda/envs/modular_transformers/lib/python3.8/site-packages/tornado/web.py", line 1784, in _execute
+        result = method(*self.path_args, **self.path_kwargs)
+      File "/om2/user/jackking/anaconda/envs/modular_transformers/lib/python3.8/site-packages/tornado/web.py", line 3278, in wrapper
+        url = self.get_login_url()
+      File "/om2/user/jackking/anaconda/envs/modular_transformers/lib/python3.8/site-packages/jupyter_server/base/handlers.py", line 761, in get_login_url
+        raise web.HTTPError(403)
+    tornado.web.HTTPError: HTTP 403: Forbidden
+[W 2024-11-05 11:13:31.948 ServerApp] 403 GET /api/kernels?1730823211908 (@172.16.24.234) 0.51ms referer=None
+[W 2024-11-05 11:13:31.948 ServerApp] wrote error: 'Forbidden'
+    Traceback (most recent call last):
+      File "/om2/user/jackking/anaconda/envs/modular_transformers/lib/python3.8/site-packages/tornado/web.py", line 1784, in _execute
+        result = method(*self.path_args, **self.path_kwargs)
+      File "/om2/user/jackking/anaconda/envs/modular_transformers/lib/python3.8/site-packages/tornado/web.py", line 3278, in wrapper
+        url = self.get_login_url()
+      File "/om2/user/jackking/anaconda/envs/modular_transformers/lib/python3.8/site-packages/jupyter_server/base/handlers.py", line 761, in get_login_url
+        raise web.HTTPError(403)
+    tornado.web.HTTPError: HTTP 403: Forbidden
+[W 2024-11-05 11:13:31.949 ServerApp] 403 GET /api/kernels?1730823211930 (@172.16.24.234) 0.60ms referer=None
+[W 2024-11-05 11:13:31.949 ServerApp] wrote error: 'Forbidden'
+    Traceback (most recent call last):
+      File "/om2/user/jackking/anaconda/envs/modular_transformers/lib/python3.8/site-packages/tornado/web.py", line 1784, in _execute
+        result = method(*self.path_args, **self.path_kwargs)
+      File "/om2/user/jackking/anaconda/envs/modular_transformers/lib/python3.8/site-packages/tornado/web.py", line 3278, in wrapper
+        url = self.get_login_url()
+      File "/om2/user/jackking/anaconda/envs/modular_transformers/lib/python3.8/site-packages/jupyter_server/base/handlers.py", line 761, in get_login_url
+        raise web.HTTPError(403)
+    tornado.web.HTTPError: HTTP 403: Forbidden
+[W 2024-11-05 11:13:31.949 ServerApp] 403 GET /api/sessions?1730823211931 (@172.16.24.234) 0.90ms referer=None
+[W 2024-11-05 11:13:31.961 ServerApp] wrote error: 'Forbidden'
+    Traceback (most recent call last):
+      File "/om2/user/jackking/anaconda/envs/modular_transformers/lib/python3.8/site-packages/tornado/web.py", line 1784, in _execute
+        result = method(*self.path_args, **self.path_kwargs)
+      File "/om2/user/jackking/anaconda/envs/modular_transformers/lib/python3.8/site-packages/tornado/web.py", line 3278, in wrapper
+        url = self.get_login_url()
+      File "/om2/user/jackking/anaconda/envs/modular_transformers/lib/python3.8/site-packages/jupyter_server/base/handlers.py", line 761, in get_login_url
+        raise web.HTTPError(403)
+    tornado.web.HTTPError: HTTP 403: Forbidden
+[W 2024-11-05 11:13:31.961 ServerApp] 403 GET /api/kernelspecs?1730823211943 (@172.16.24.234) 0.48ms referer=None
+[W 2024-11-05 11:13:31.969 ServerApp] 404 GET /hub/api (@172.16.24.234) 0.61ms referer=None
+[I 2024-11-05 11:13:31.983 ServerApp] 302 GET / (@172.16.24.234) 0.20ms
+[I 2024-11-05 11:13:31.987 LabApp] 302 GET /lab? (@172.16.24.234) 0.26ms
+[W 2024-11-05 11:13:31.998 ServerApp] wrote error: 'Forbidden'
+    Traceback (most recent call last):
+      File "/om2/user/jackking/anaconda/envs/modular_transformers/lib/python3.8/site-packages/tornado/web.py", line 1784, in _execute
+        result = method(*self.path_args, **self.path_kwargs)
+      File "/om2/user/jackking/anaconda/envs/modular_transformers/lib/python3.8/site-packages/tornado/web.py", line 3278, in wrapper
+        url = self.get_login_url()
+      File "/om2/user/jackking/anaconda/envs/modular_transformers/lib/python3.8/site-packages/jupyter_server/base/handlers.py", line 761, in get_login_url
+        raise web.HTTPError(403)
+    tornado.web.HTTPError: HTTP 403: Forbidden
+[W 2024-11-05 11:13:31.999 ServerApp] 403 GET /api/kernelspecs?1730823211994 (@172.16.24.234) 0.49ms referer=None
+[W 2024-11-05 11:13:32.005 ServerApp] wrote error: 'Forbidden'
+    Traceback (most recent call last):
+      File "/om2/user/jackking/anaconda/envs/modular_transformers/lib/python3.8/site-packages/tornado/web.py", line 1784, in _execute
+        result = method(*self.path_args, **self.path_kwargs)
+      File "/om2/user/jackking/anaconda/envs/modular_transformers/lib/python3.8/site-packages/tornado/web.py", line 3278, in wrapper
+        url = self.get_login_url()
+      File "/om2/user/jackking/anaconda/envs/modular_transformers/lib/python3.8/site-packages/jupyter_server/base/handlers.py", line 761, in get_login_url
+        raise web.HTTPError(403)
+    tornado.web.HTTPError: HTTP 403: Forbidden
+[W 2024-11-05 11:13:32.005 ServerApp] 403 GET /api/kernels?1730823211995 (@172.16.24.234) 0.49ms referer=None
+[W 2024-11-05 11:13:32.006 ServerApp] wrote error: 'Forbidden'
+    Traceback (most recent call last):
+      File "/om2/user/jackking/anaconda/envs/modular_transformers/lib/python3.8/site-packages/tornado/web.py", line 1784, in _execute
+        result = method(*self.path_args, **self.path_kwargs)
+      File "/om2/user/jackking/anaconda/envs/modular_transformers/lib/python3.8/site-packages/tornado/web.py", line 3278, in wrapper
+        url = self.get_login_url()
+      File "/om2/user/jackking/anaconda/envs/modular_transformers/lib/python3.8/site-packages/jupyter_server/base/handlers.py", line 761, in get_login_url
+        raise web.HTTPError(403)
+    tornado.web.HTTPError: HTTP 403: Forbidden
+[W 2024-11-05 11:13:32.007 ServerApp] 403 GET /api/kernels?1730823211997 (@172.16.24.234) 0.81ms referer=None
+[W 2024-11-05 11:13:32.007 ServerApp] wrote error: 'Forbidden'
+    Traceback (most recent call last):
+      File "/om2/user/jackking/anaconda/envs/modular_transformers/lib/python3.8/site-packages/tornado/web.py", line 1784, in _execute
+        result = method(*self.path_args, **self.path_kwargs)
+      File "/om2/user/jackking/anaconda/envs/modular_transformers/lib/python3.8/site-packages/tornado/web.py", line 3278, in wrapper
+        url = self.get_login_url()
+      File "/om2/user/jackking/anaconda/envs/modular_transformers/lib/python3.8/site-packages/jupyter_server/base/handlers.py", line 761, in get_login_url
+        raise web.HTTPError(403)
+    tornado.web.HTTPError: HTTP 403: Forbidden
+[W 2024-11-05 11:13:32.007 ServerApp] 403 GET /api/sessions?1730823211999 (@172.16.24.234) 1.10ms referer=None
+[W 2024-11-05 11:13:32.007 ServerApp] wrote error: 'Forbidden'
+    Traceback (most recent call last):
+      File "/om2/user/jackking/anaconda/envs/modular_transformers/lib/python3.8/site-packages/tornado/web.py", line 1784, in _execute
+        result = method(*self.path_args, **self.path_kwargs)
+      File "/om2/user/jackking/anaconda/envs/modular_transformers/lib/python3.8/site-packages/tornado/web.py", line 3278, in wrapper
+        url = self.get_login_url()
+      File "/om2/user/jackking/anaconda/envs/modular_transformers/lib/python3.8/site-packages/jupyter_server/base/handlers.py", line 761, in get_login_url
+        raise web.HTTPError(403)
+    tornado.web.HTTPError: HTTP 403: Forbidden
+[W 2024-11-05 11:13:32.007 ServerApp] 403 GET /api/kernelspecs?1730823212002 (@172.16.24.234) 1.33ms referer=None
+[W 2024-11-05 11:13:32.695 ServerApp] 404 GET /hub/api (@172.16.24.234) 0.61ms referer=None
+[I 2024-11-05 11:13:33.005 ServerApp] 302 GET / (@172.16.24.234) 0.20ms
+[I 2024-11-05 11:13:33.893 LabApp] 302 GET /lab? (@172.16.24.234) 0.30ms
+[W 2024-11-05 11:13:34.232 ServerApp] wrote error: 'Forbidden'
+    Traceback (most recent call last):
+      File "/om2/user/jackking/anaconda/envs/modular_transformers/lib/python3.8/site-packages/tornado/web.py", line 1784, in _execute
+        result = method(*self.path_args, **self.path_kwargs)
+      File "/om2/user/jackking/anaconda/envs/modular_transformers/lib/python3.8/site-packages/tornado/web.py", line 3278, in wrapper
+        url = self.get_login_url()
+      File "/om2/user/jackking/anaconda/envs/modular_transformers/lib/python3.8/site-packages/jupyter_server/base/handlers.py", line 761, in get_login_url
+        raise web.HTTPError(403)
+    tornado.web.HTTPError: HTTP 403: Forbidden
+[W 2024-11-05 11:13:34.235 ServerApp] 403 GET /api/kernelspecs?1730823214228 (@172.16.24.234) 2.58ms referer=None
+[W 2024-11-05 11:13:34.347 ServerApp] wrote error: 'Forbidden'
+    Traceback (most recent call last):
+      File "/om2/user/jackking/anaconda/envs/modular_transformers/lib/python3.8/site-packages/tornado/web.py", line 1784, in _execute
+        result = method(*self.path_args, **self.path_kwargs)
+      File "/om2/user/jackking/anaconda/envs/modular_transformers/lib/python3.8/site-packages/tornado/web.py", line 3278, in wrapper
+        url = self.get_login_url()
+      File "/om2/user/jackking/anaconda/envs/modular_transformers/lib/python3.8/site-packages/jupyter_server/base/handlers.py", line 761, in get_login_url
+        raise web.HTTPError(403)
+    tornado.web.HTTPError: HTTP 403: Forbidden
+[W 2024-11-05 11:13:34.348 ServerApp] 403 GET /api/kernels?1730823214229 (@172.16.24.234) 0.51ms referer=None
+[W 2024-11-05 11:13:34.348 ServerApp] wrote error: 'Forbidden'
+    Traceback (most recent call last):
+      File "/om2/user/jackking/anaconda/envs/modular_transformers/lib/python3.8/site-packages/tornado/web.py", line 1784, in _execute
+        result = method(*self.path_args, **self.path_kwargs)
+      File "/om2/user/jackking/anaconda/envs/modular_transformers/lib/python3.8/site-packages/tornado/web.py", line 3278, in wrapper
+        url = self.get_login_url()
+      File "/om2/user/jackking/anaconda/envs/modular_transformers/lib/python3.8/site-packages/jupyter_server/base/handlers.py", line 761, in get_login_url
+        raise web.HTTPError(403)
+    tornado.web.HTTPError: HTTP 403: Forbidden
+[W 2024-11-05 11:13:34.349 ServerApp] 403 GET /api/kernels?1730823214284 (@172.16.24.234) 0.61ms referer=None
+[W 2024-11-05 11:13:34.349 ServerApp] wrote error: 'Forbidden'
+    Traceback (most recent call last):
+      File "/om2/user/jackking/anaconda/envs/modular_transformers/lib/python3.8/site-packages/tornado/web.py", line 1784, in _execute
+        result = method(*self.path_args, **self.path_kwargs)
+      File "/om2/user/jackking/anaconda/envs/modular_transformers/lib/python3.8/site-packages/tornado/web.py", line 3278, in wrapper
+        url = self.get_login_url()
+      File "/om2/user/jackking/anaconda/envs/modular_transformers/lib/python3.8/site-packages/jupyter_server/base/handlers.py", line 761, in get_login_url
+        raise web.HTTPError(403)
+    tornado.web.HTTPError: HTTP 403: Forbidden
+[W 2024-11-05 11:13:34.349 ServerApp] 403 GET /api/sessions?1730823214291 (@172.16.24.234) 0.89ms referer=None
+[W 2024-11-05 11:13:34.369 ServerApp] wrote error: 'Forbidden'
+    Traceback (most recent call last):
+      File "/om2/user/jackking/anaconda/envs/modular_transformers/lib/python3.8/site-packages/tornado/web.py", line 1784, in _execute
+        result = method(*self.path_args, **self.path_kwargs)
+      File "/om2/user/jackking/anaconda/envs/modular_transformers/lib/python3.8/site-packages/tornado/web.py", line 3278, in wrapper
+        url = self.get_login_url()
+      File "/om2/user/jackking/anaconda/envs/modular_transformers/lib/python3.8/site-packages/jupyter_server/base/handlers.py", line 761, in get_login_url
+        raise web.HTTPError(403)
+    tornado.web.HTTPError: HTTP 403: Forbidden
+[W 2024-11-05 11:13:34.369 ServerApp] 403 GET /api/kernelspecs?1730823214330 (@172.16.24.234) 0.50ms referer=None
+[W 2024-11-05 11:13:34.421 ServerApp] 404 GET /hub/api (@172.16.24.234) 0.62ms referer=None
+[I 2024-11-05 11:13:34.439 ServerApp] 302 GET / (@172.16.24.234) 0.19ms
+[I 2024-11-05 11:13:34.449 LabApp] 302 GET /lab? (@172.16.24.234) 0.26ms
+[W 2024-11-05 11:13:34.460 ServerApp] wrote error: 'Forbidden'
+    Traceback (most recent call last):
+      File "/om2/user/jackking/anaconda/envs/modular_transformers/lib/python3.8/site-packages/tornado/web.py", line 1784, in _execute
+        result = method(*self.path_args, **self.path_kwargs)
+      File "/om2/user/jackking/anaconda/envs/modular_transformers/lib/python3.8/site-packages/tornado/web.py", line 3278, in wrapper
+        url = self.get_login_url()
+      File "/om2/user/jackking/anaconda/envs/modular_transformers/lib/python3.8/site-packages/jupyter_server/base/handlers.py", line 761, in get_login_url
+        raise web.HTTPError(403)
+    tornado.web.HTTPError: HTTP 403: Forbidden
+[W 2024-11-05 11:13:34.460 ServerApp] 403 GET /api/kernelspecs?1730823214456 (@172.16.24.234) 0.49ms referer=None
+[W 2024-11-05 11:13:34.496 ServerApp] wrote error: 'Forbidden'
+    Traceback (most recent call last):
+      File "/om2/user/jackking/anaconda/envs/modular_transformers/lib/python3.8/site-packages/tornado/web.py", line 1784, in _execute
+        result = method(*self.path_args, **self.path_kwargs)
+      File "/om2/user/jackking/anaconda/envs/modular_transformers/lib/python3.8/site-packages/tornado/web.py", line 3278, in wrapper
+        url = self.get_login_url()
+      File "/om2/user/jackking/anaconda/envs/modular_transformers/lib/python3.8/site-packages/jupyter_server/base/handlers.py", line 761, in get_login_url
+        raise web.HTTPError(403)
+    tornado.web.HTTPError: HTTP 403: Forbidden
+[W 2024-11-05 11:13:34.496 ServerApp] 403 GET /api/kernels?1730823214457 (@172.16.24.234) 0.50ms referer=None
+[W 2024-11-05 11:13:34.497 ServerApp] wrote error: 'Forbidden'
+    Traceback (most recent call last):
+      File "/om2/user/jackking/anaconda/envs/modular_transformers/lib/python3.8/site-packages/tornado/web.py", line 1784, in _execute
+        result = method(*self.path_args, **self.path_kwargs)
+      File "/om2/user/jackking/anaconda/envs/modular_transformers/lib/python3.8/site-packages/tornado/web.py", line 3278, in wrapper
+        url = self.get_login_url()
+      File "/om2/user/jackking/anaconda/envs/modular_transformers/lib/python3.8/site-packages/jupyter_server/base/handlers.py", line 761, in get_login_url
+        raise web.HTTPError(403)
+    tornado.web.HTTPError: HTTP 403: Forbidden
+[W 2024-11-05 11:13:34.497 ServerApp] 403 GET /api/kernels?1730823214458 (@172.16.24.234) 0.81ms referer=None
+[W 2024-11-05 11:13:34.498 ServerApp] wrote error: 'Forbidden'
+    Traceback (most recent call last):
+      File "/om2/user/jackking/anaconda/envs/modular_transformers/lib/python3.8/site-packages/tornado/web.py", line 1784, in _execute
+        result = method(*self.path_args, **self.path_kwargs)
+      File "/om2/user/jackking/anaconda/envs/modular_transformers/lib/python3.8/site-packages/tornado/web.py", line 3278, in wrapper
+        url = self.get_login_url()
+      File "/om2/user/jackking/anaconda/envs/modular_transformers/lib/python3.8/site-packages/jupyter_server/base/handlers.py", line 761, in get_login_url
+        raise web.HTTPError(403)
+    tornado.web.HTTPError: HTTP 403: Forbidden
+[W 2024-11-05 11:13:34.498 ServerApp] 403 GET /api/sessions?1730823214459 (@172.16.24.234) 1.12ms referer=None
+[W 2024-11-05 11:13:34.498 ServerApp] wrote error: 'Forbidden'
+    Traceback (most recent call last):
+      File "/om2/user/jackking/anaconda/envs/modular_transformers/lib/python3.8/site-packages/tornado/web.py", line 1784, in _execute
+        result = method(*self.path_args, **self.path_kwargs)
+      File "/om2/user/jackking/anaconda/envs/modular_transformers/lib/python3.8/site-packages/tornado/web.py", line 3278, in wrapper
+        url = self.get_login_url()
+      File "/om2/user/jackking/anaconda/envs/modular_transformers/lib/python3.8/site-packages/jupyter_server/base/handlers.py", line 761, in get_login_url
+        raise web.HTTPError(403)
+    tornado.web.HTTPError: HTTP 403: Forbidden
+[W 2024-11-05 11:13:34.498 ServerApp] 403 GET /api/kernelspecs?1730823214464 (@172.16.24.234) 1.35ms referer=None
+[I 2024-11-05 11:39:16.592 ServerApp] Kernel interrupted: f58ab3b1-3e00-4826-9604-d68c93ef1c77
+[I 2024-11-05 11:40:28.786 ServerApp] Kernel restarted: f58ab3b1-3e00-4826-9604-d68c93ef1c77
+[I 2024-11-05 11:40:28.792 ServerApp] Starting buffering for f58ab3b1-3e00-4826-9604-d68c93ef1c77:4a0a8f82-90b6-430a-9106-420e89fd9d86
+[I 2024-11-05 11:40:28.802 ServerApp] Connecting to kernel f58ab3b1-3e00-4826-9604-d68c93ef1c77.
+[I 2024-11-05 11:40:28.802 ServerApp] Restoring connection for f58ab3b1-3e00-4826-9604-d68c93ef1c77:4a0a8f82-90b6-430a-9106-420e89fd9d86
+[I 2024-11-05 11:47:36.099 ServerApp] Kernel interrupted: f58ab3b1-3e00-4826-9604-d68c93ef1c77
+[I 2024-11-05 11:47:49.046 ServerApp] Kernel restarted: f58ab3b1-3e00-4826-9604-d68c93ef1c77
+[I 2024-11-05 11:47:49.050 ServerApp] Starting buffering for f58ab3b1-3e00-4826-9604-d68c93ef1c77:4a0a8f82-90b6-430a-9106-420e89fd9d86
+[I 2024-11-05 11:47:49.063 ServerApp] Connecting to kernel f58ab3b1-3e00-4826-9604-d68c93ef1c77.
+[I 2024-11-05 11:47:49.063 ServerApp] Restoring connection for f58ab3b1-3e00-4826-9604-d68c93ef1c77:4a0a8f82-90b6-430a-9106-420e89fd9d86
+[I 2024-11-05 11:54:58.967 ServerApp] Kernel interrupted: f58ab3b1-3e00-4826-9604-d68c93ef1c77
+[I 2024-11-05 11:56:24.648 ServerApp] Kernel interrupted: f58ab3b1-3e00-4826-9604-d68c93ef1c77
+[I 2024-11-05 11:58:14.473 ServerApp] Kernel interrupted: f58ab3b1-3e00-4826-9604-d68c93ef1c77
+[I 2024-11-05 12:03:48.456 ServerApp] Kernel interrupted: f58ab3b1-3e00-4826-9604-d68c93ef1c77
+[I 2024-11-05 12:10:26.064 ServerApp] Kernel interrupted: f58ab3b1-3e00-4826-9604-d68c93ef1c77
+[W 2024-11-05 12:10:27.429 ServerApp] IOPub message rate exceeded.
+    The Jupyter server will temporarily stop sending output
+    to the client in order to avoid crashing it.
+    To change this limit, set the config variable
+    `--ServerApp.iopub_msg_rate_limit`.
+    
+    Current values:
+    ServerApp.iopub_msg_rate_limit=1000.0 (msgs/sec)
+    ServerApp.rate_limit_window=3.0 (secs)
+    
+[W 2024-11-05 12:10:28.104 ServerApp] iopub messages resumed
+[I 2024-11-05 12:17:00.377 ServerApp] Kernel interrupted: f58ab3b1-3e00-4826-9604-d68c93ef1c77
+[I 2024-11-05 12:17:14.851 ServerApp] Kernel restarted: f58ab3b1-3e00-4826-9604-d68c93ef1c77
+[I 2024-11-05 12:17:14.856 ServerApp] Starting buffering for f58ab3b1-3e00-4826-9604-d68c93ef1c77:4a0a8f82-90b6-430a-9106-420e89fd9d86
+[I 2024-11-05 12:17:14.864 ServerApp] Connecting to kernel f58ab3b1-3e00-4826-9604-d68c93ef1c77.
+[I 2024-11-05 12:17:14.864 ServerApp] Restoring connection for f58ab3b1-3e00-4826-9604-d68c93ef1c77:4a0a8f82-90b6-430a-9106-420e89fd9d86
+[I 2024-11-05 12:21:51.163 ServerApp] Kernel interrupted: f58ab3b1-3e00-4826-9604-d68c93ef1c77
+[I 2024-11-05 12:22:06.078 ServerApp] Kernel restarted: f58ab3b1-3e00-4826-9604-d68c93ef1c77
+[I 2024-11-05 12:22:06.083 ServerApp] Starting buffering for f58ab3b1-3e00-4826-9604-d68c93ef1c77:4a0a8f82-90b6-430a-9106-420e89fd9d86
+[I 2024-11-05 12:22:06.101 ServerApp] Connecting to kernel f58ab3b1-3e00-4826-9604-d68c93ef1c77.
+[I 2024-11-05 12:22:06.101 ServerApp] Restoring connection for f58ab3b1-3e00-4826-9604-d68c93ef1c77:4a0a8f82-90b6-430a-9106-420e89fd9d86
+[I 2024-11-05 12:26:25.516 ServerApp] Kernel interrupted: f58ab3b1-3e00-4826-9604-d68c93ef1c77
+[I 2024-11-05 12:26:39.669 ServerApp] Kernel restarted: f58ab3b1-3e00-4826-9604-d68c93ef1c77
+[I 2024-11-05 12:26:39.674 ServerApp] Starting buffering for f58ab3b1-3e00-4826-9604-d68c93ef1c77:4a0a8f82-90b6-430a-9106-420e89fd9d86
+[I 2024-11-05 12:26:39.680 ServerApp] Connecting to kernel f58ab3b1-3e00-4826-9604-d68c93ef1c77.
+[I 2024-11-05 12:26:39.680 ServerApp] Restoring connection for f58ab3b1-3e00-4826-9604-d68c93ef1c77:4a0a8f82-90b6-430a-9106-420e89fd9d86
+[I 2024-11-05 12:35:57.166 ServerApp] Kernel interrupted: f58ab3b1-3e00-4826-9604-d68c93ef1c77
+[I 2024-11-05 12:52:21.502 ServerApp] Kernel interrupted: f58ab3b1-3e00-4826-9604-d68c93ef1c77
